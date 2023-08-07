@@ -1,0 +1,65 @@
+!#/usr/bin/env python3
+
+def npa(text):
+    for ch in text:
+        if ch == ' ':
+            print(" ")
+        elif ch == 'a':
+            print("alfa")
+        elif ch == 'b':
+            print("bravo")
+        elif ch == 'c':
+            print("charlie")
+        elif ch == 'd':
+            print("delta")
+        elif ch == 'e':
+            print("echo")
+        elif ch == 'f':
+            print("foxtrot")
+        elif ch == 'g':
+            print("golf")
+        elif ch == 'h':
+            print("hotel")
+        elif ch == 'i':
+            print("india")
+        elif ch == 'j':
+            print("juliett")
+        elif ch == 'k':
+            print("kilo")
+        elif ch == 'l':
+            print("lima")
+        elif ch == 'm':
+            print("mike")
+        elif ch == 'n':
+            print("november")
+        elif ch == 'o':
+            print('oscar')
+        elif ch == 'p':
+            print("papa")
+        elif ch == 'q':
+            print('quebec')
+        elif ch == 'r':
+            print("romeo")
+        elif ch == 's':
+            print("sierra")
+        elif ch == 't':
+            print("tango")
+        elif ch == 'u':
+            print('uniform')
+        elif ch == 'v':
+            print("victor")
+        elif ch == 'w':
+            print("whiskey")
+        elif ch == 'x':
+            print("xray")
+        elif ch == 'y':
+            print("yankee")
+        elif ch == 'z':
+            print("zulu")
+
+text = input("Please enter word: ")
+if text.isalpha != True:
+    print("Please enter letters only!")
+text = text.lower()
+npa(text)
+
