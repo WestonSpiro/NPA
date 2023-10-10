@@ -56,10 +56,10 @@ def npa(text):
             print("yankee")
         elif ch == 'z':
             print("zulu")
-
-text = input("Please enter word: ")
-if text.isalpha != True:
-    print("Please enter letters only!")
-text = text.lower()
-npa(text)
-
+while True:
+    text = input("Please enter word: ")
+    text = text.lower()
+    if text.isalpha() == True: #or  chr in text is " " == True:
+     npa(text)
+    else:
+        print("Please enter letters only!")
