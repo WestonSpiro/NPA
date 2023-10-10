@@ -59,7 +59,11 @@ def npa(text):
 while True:
     text = input("Please enter word: ")
     text = text.lower()
-    if text.isalpha() == True: #or  chr in text is " " == True:
-     npa(text)
-    else:
-        print("Please enter letters only!")
+    for ch in text:
+        if ch.isalpha() == True or ch.isspace() == True:
+    #text = input("Please enter word: ")
+    #if text.isalpha() == True: #or  chr in text is " " == True:
+            npa(ch)
+        else:
+            print("Please enter letters only!")
+            break
